@@ -247,7 +247,7 @@ export default function Portfolio() {
           <div className="justify-self-center md:justify-self-end">
             <div className="relative">
               <a
-                href="/cv.pdf"
+                href="cv.pdf"
                 download="Leashaniya-CV.pdf"
                 style={{ backgroundColor: "#D9A441", color: "#101826" }}
                 className="font-body absolute left-4 top-4 z-10 rounded-sm px-3 py-2 text-xs font-semibold shadow-lg transition-opacity hover:opacity-90"
