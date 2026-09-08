@@ -224,7 +224,7 @@ export default function Portfolio() {
               platforms and transforming raw data into reliable,
               analytics ready datasets. I enjoy solving complex data
               challenges, improving data reliability, and delivering
-              solutions that support business decision-making.
+              solutions that support business decision making.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <a
