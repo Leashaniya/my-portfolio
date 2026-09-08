@@ -245,15 +245,25 @@ export default function Portfolio() {
           </div>
 
           <div className="justify-self-center md:justify-self-end">
-            <div
-              style={{ borderColor: "rgba(217,164,65,0.4)" }}
-              className="h-72 w-72 overflow-hidden rounded-2xl border md:h-80 md:w-80"
-            >
-              <img
-                src="photo.jpg"
-                alt="Leashaniya Krishnapillai"
-                className="h-full w-full object-cover"
-              />
+            <div className="relative">
+              <a
+                href="/cv.pdf"
+                download="Leashaniya-CV.pdf"
+                style={{ backgroundColor: "#D9A441", color: "#101826" }}
+                className="font-body absolute left-4 top-4 z-10 rounded-sm px-3 py-2 text-xs font-semibold shadow-lg transition-opacity hover:opacity-90"
+              >
+                Download CV
+              </a>
+              <div
+                style={{ borderColor: "rgba(217,164,65,0.4)" }}
+                className="h-72 w-72 overflow-hidden rounded-2xl border md:h-80 md:w-80"
+              >
+                <img
+                  src="photo.jpg"
+                  alt="Leashaniya Krishnapillai"
+                  className="h-full w-full object-cover"
+                />
+              </div>
             </div>
           </div>
         </div>
