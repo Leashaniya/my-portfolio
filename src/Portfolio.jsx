@@ -250,7 +250,7 @@ export default function Portfolio() {
               className="h-72 w-72 overflow-hidden rounded-2xl border md:h-80 md:w-80"
             >
               <img
-                src="/photo.jpg"
+                src="photo.jpg"
                 alt="Leashaniya Krishnapillai"
                 className="h-full w-full object-cover"
               />
