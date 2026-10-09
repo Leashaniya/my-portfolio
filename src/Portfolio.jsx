@@ -119,6 +119,11 @@ const SOFT_SKILLS = [
 
 const CERTS = [
   {
+    name: "Microsoft Certified: Fabric Data Engineer Associate (DP-700)",
+    org: "Microsoft · Oct 2026",
+    link: "https://learn.microsoft.com/api/credentials/share/en-us/LeashaniyaKrishnapillai-0843/13C748B89515645?sharingId=F05FCE9DE89E1033",
+  },
+  {
     name: "Python 3 Fundamentals",
     org: "Pluralsight",
     link: "https://drive.google.com/file/d/1tbrYa8itbD8GURlHcAllE6Ron5Lj_iv_/view?usp=sharing",
