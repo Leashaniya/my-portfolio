@@ -251,14 +251,6 @@ export default function Portfolio() {
 
           <div className="justify-self-center md:justify-self-end">
             <div className="relative">
-              <a
-                href="cv.pdf"
-                download="Leashaniya-CV.pdf"
-                style={{ backgroundColor: "#D9A441", color: "#101826" }}
-                className="font-body absolute left-4 top-4 z-10 rounded-sm px-3 py-2 text-xs font-semibold shadow-lg transition-opacity hover:opacity-90"
-              >
-                Download CV
-              </a>
               <div
                 style={{ borderColor: "rgba(217,164,65,0.4)" }}
                 className="h-72 w-72 overflow-hidden rounded-2xl border md:h-80 md:w-80"
@@ -448,11 +440,8 @@ export default function Portfolio() {
                   BSc (Hons) IT — Data Science
                 </h3>
               </div>
-              <p style={{ color: "#D9A441" }} className="font-body mb-1 text-sm">
+              <p style={{ color: "#D9A441" }} className="font-body mb-4 text-sm">
                 SLIIT · Jul 2022 — Jul 2026
-              </p>
-              <p style={{ color: "rgba(233,235,239,0.6)" }} className="font-body mb-4 text-sm">
-                CGPA 3.3
               </p>
               <div style={{ borderColor: "rgba(233,235,239,0.15)" }} className="border-l pl-6 mt-6">
                 <h3 className="font-display text-base font-semibold">Advanced Level Examination</h3>
