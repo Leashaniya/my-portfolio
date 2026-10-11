@@ -59,18 +59,18 @@ const PROJECTS = [
     title: "Airbnb End-to-End Pipeline",
     subtitle: "Cloud-Native ELT",
     description:
-      "Cloud-native ELT pipeline ingesting Airbnb data into AWS S3, staged and loaded into Snowflake. dbt-managed transformations across staging, intermediate, and mart layers, with dimensional modeling and tests for downstream reporting.",
+      "Cloud-native ELT pipeline loading 1.4M+ rows of Seattle Airbnb data into AWS S3, then into Snowflake through an external stage and COPY INTO. dbt transforms it across staging, intermediate, and mart layers into a star schema, with incremental models and 30+ data quality tests.",
     tags: ["AWS S3", "Snowflake", "dbt", "SQL"],
-    link: null,
+    link: "https://github.com/Leashaniya/airbnb-elt-pipeline",
   },
   {
     icon: Workflow,
     title: "E-Commerce ETL Pipeline",
     subtitle: "Apache Airflow",
     description:
-      "Orchestrated ETL pipeline using Apache Airflow DAGs to extract, transform, and load order and delivery data, with task scheduling and dependency management. Containerized with Astro CLI and Docker for reproducible deployment.",
-    tags: ["Apache Airflow", "Docker", "Astro CLI", "Python"],
-    link: null,
+      "Daily Apache Airflow DAG that extracts e-commerce order and delivery data, transforms it with Python, and loads it into PostgreSQL, with task scheduling, dependency management, retries, idempotent loads, and automated data quality checks.",
+    tags: ["Apache Airflow", "Python", "PostgreSQL", "pandas"],
+    link: "https://github.com/Leashaniya/ecommerce-airflow-etl",
   },
   {
     icon: Bot,
