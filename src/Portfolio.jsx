@@ -124,6 +124,11 @@ const CERTS = [
     link: "https://learn.microsoft.com/api/credentials/share/en-us/LeashaniyaKrishnapillai-0843/13C748B89515645?sharingId=F05FCE9DE89E1033",
   },
   {
+    name: "Get Started with Databricks for Data Engineering",
+    org: "Databricks Academy · Oct 2026",
+    link: "certs/databricks-get-started-data-engineering.pdf",
+  },
+  {
     name: "Python 3 Fundamentals",
     org: "Pluralsight",
     link: "https://drive.google.com/file/d/1tbrYa8itbD8GURlHcAllE6Ron5Lj_iv_/view?usp=sharing",
